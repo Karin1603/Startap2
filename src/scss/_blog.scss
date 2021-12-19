@@ -25,6 +25,14 @@
             border-top: 1px solid #ddd;
         }
     }
+    &__item{
+        @include screen(750) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            } 
+        }
+    }
 
     &__image {
         width: 460px;

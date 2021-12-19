@@ -479,6 +479,9 @@ table {
     @media (max-width: 768px) {
       .row .col-50 {
         width: 100%; } }
+    @media (max-width: 768px) {
+      .row .col-50 {
+        width: 100%; } }
 
 .header {
   position: fixed;
@@ -637,6 +640,9 @@ table {
     .about .col-50:last-child {
       padding-left: 0; } }
   @media (max-width: 600px) {
+    .about .col-50:first-child {
+      padding: 0 0 15px; } }
+  @media (max-width: 480px) {
     .about .col-50:first-child {
       padding: 0 0 15px; } }
   .about .swiper-about {
@@ -818,7 +824,8 @@ table {
       .works .tabs__item .col-33 {
         width: calc(100% - 30px);
         margin: 5px 15px;
-        overflow: hidden; } }
+        overflow: hidden; 
+      } }
 
 .works__description {
   position: absolute;
@@ -963,6 +970,11 @@ table {
     color: #777;
     text-transform: uppercase;
     font-size: 13px; }
+    @media (max-width: 750px) {
+      .blog__item {
+        flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;}}
 
 .clients {
   background: #f8f8f8; }

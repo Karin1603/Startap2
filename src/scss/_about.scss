@@ -50,6 +50,11 @@
                 padding: 0 0 15px;;
             } 
         }
+        @include screen(480) {
+            &:first-child {
+                padding: 0 0 15px;;
+            } 
+        }
     }
 
 
