@@ -639,6 +639,11 @@ table {
   @media (max-width: 600px) {
     .about .col-50:first-child {
       padding: 0 0 15px; } }
+  @media (max-width: 750px){
+    .about .col-50-text{
+      text-align: justify;
+    }
+  }
   .about .swiper-about {
     position: relative; }
     .about .swiper-about .swiper-slide {
@@ -963,7 +968,20 @@ table {
     color: #777;
     text-transform: uppercase;
     font-size: 13px; }
-
+  @media(max-width:750px){
+    .blog__item{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .blog__item-header {
+      display: flex;
+      align-items: center;
+      margin: 10px 0 15px;}
+      .blog__preview{
+        text-align: justify;
+      }
+  }
 .clients {
   background: #f8f8f8; }
   .clients__logos {
